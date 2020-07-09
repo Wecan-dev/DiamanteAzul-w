@@ -28,6 +28,7 @@ $('.product-images-for').slick({
   arrows: false,
   fade: true,
   asNavFor: '.product-images-nav'
+
 });
 $('.product-images-nav').slick({
   slidesToShow: 3,
@@ -36,9 +37,37 @@ $('.product-images-nav').slick({
   dots: true,
   centerMode: true,
   focusOnSelect: true,
-  arrows: false
-});
-  
+  arrows: false,
+  responsive: [
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    }
+  },
+  {
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,  
+    }
+  }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+  });
+
 
 $('.single-item').slick({
   arrows: false,
@@ -48,4 +77,39 @@ $('.single-item').slick({
   fade: true,
   infinite: true,
   pauseOnHover: false
+});
+
+$(function () {
+  'use strict'
+
+  $('[data-toggle="offcanvas"]').on('click', function () {
+    $('.offcanvas-collapse').toggleClass('open')
+  })
+})
+
+$(function () {
+  'use strict'
+
+  $('.nav-link__mobile').on('click', function () {
+    $('.offcanvas-collapse').removeClass('open')
+  })
+})
+
+$(".hamburger").on("click", function () {
+  if (!$(this).hasClass("is-active")) {
+    $(this).addClass("is-active")
+    $('.navbar-fixed-js').addClass('fixed');
+    $('.hamburger-inner').addClass('js-hamburger');
+    $('.nav-link').addClass('fixed-color');
+    $('body').css('overflow', 'hidden ');
+  } else {
+    $(this).removeClass("is-active")
+    $('body').css('overflow', 'scroll');
+    if ($(document).scrollTop() <= 70 && ($(window).width() >= 0)) {
+      $('.navbar-fixed-js').removeClass('fixed');
+      $('.hamburger-inner').removeClass('js-hamburger');
+      $('.nav-link').removeClass('fixed-color');
+
+    }
+  }
 });
