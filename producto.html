@@ -18,18 +18,29 @@
 </head>
 
 <body>
-
+  <a class="float-button btn btn-float" href="https://api.whatsapp.com/send?phone=584246779776">
+    <i class="icofont-whatsapp"></i>
+  </a>
+  <div class="main-fixed__ws">
+    <p class="text-fixed__ws">
+      Contactanos
+    </p>
+  </div>
   <div class='fixed-top'>
     <nav class='navbar navbar-top navbar-expand-lg'>
       <a class='navbar-brand'>
-        <img src="assets/img/Diamante-Azul.png">
+        <img src="assets/img/logo-default.png">
       </a>
-      <button class='navbar-toggler'>
-        <span class='fa fa-bars'></span>
-      </button>
+
     </nav>
+    <button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
     <nav class='navbar navbar-expand-lg'>
-      <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+
+      <div class='navbar-collapse offcanvas-collapse'>
         <ul class='navbar-nav mx-auto'>
           <li class='nav-item'>
             <a href="index.html" class='nav-link'>Inicio</a>
@@ -45,111 +56,123 @@
           </li>
         </ul>
       </div>
-    </nav>
-  </div>
+      <div class="boton-navbar">
+        <form class="Search">
+         <span class="Search-close">
+          <span class="lnr lnr-cross"></span>
+        </span>
+        <input type="text" class="form-control Search-box" name="Search-box" id="Search-box" placeholder="Search">
+        <label for="Search-box" class="Search-box-label">
+          <i class="fa fa-search"></i>
+        </label>
+
+      </form>
+    </div>
+  </nav>
+
+</div>
 
 
-
-  <div class='wrapper'>
-    <div class="container product-container">
-      <div class="category-header">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="category.html">Anillos de Graduación</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a href="category.html">Clásicos</a>
-            </li>
-            <li aria-current="page" class="breadcrumb-item active">
-              <a href="subcategory.html">Tradicionales</a>
-            </li>
-          </ol>
-        </nav>
+<div class='wrapper'>
+  <div class="container product-container">
+    <div class="category-header">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="category.html">Anillos de Graduación</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="category.html">Clásicos</a>
+          </li>
+          <li aria-current="page" class="breadcrumb-item active">
+            <a href="subcategory.html">Tradicionales</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <div class="product-box">
+      <div class="product-images">
+        <div class="product-images-for">
+          <img src="assets/img/Products/j/01-J-24.jpg">
+          <img src="assets/img/Products/j/01-J-24.jpg">
+          <img src="assets/img/Products/j/01-J-24.jpg">
+          <img src="assets/img/Products/j/01-J-24.jpg">
+        </div>
+        <div class="product-images-nav">
+          <img src="assets/img/Products/j/01-J-24.jpg">
+          <img src="assets/img/Products/j/01-J-24.jpg">
+          <img src="assets/img/Products/j/01-J-24.jpg">
+          <img src="assets/img/Products/j/01-J-24.jpg">
+        </div>
       </div>
-      <div class="product-box">
-        <div class="product-images">
-          <div class="product-images-for">
-            <img src="assets/img/Products/j/01-J-24.jpg">
-            <img src="assets/img/Products/j/01-J-24.jpg">
-            <img src="assets/img/Products/j/01-J-24.jpg">
-            <img src="assets/img/Products/j/01-J-24.jpg">
+      <div class="product-description">
+        <form action="">
+          <h3>REF: CLE 10X8 AN</h3>
+          <h1>316</h1>
+          <div class="row">
+            <div class="col-sm-12">
+              <h4>Materiales</h4>
+            </div>
           </div>
-          <div class="product-images-nav">
-            <img src="assets/img/Products/j/01-J-24.jpg">
-            <img src="assets/img/Products/j/01-J-24.jpg">
-            <img src="assets/img/Products/j/01-J-24.jpg">
-            <img src="assets/img/Products/j/01-J-24.jpg">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="inputBox">
+                <label class="checkbox-container">
+                  Oro 18k
+                  <input name="additional[oro-18k]" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">
+                  Oro 10k
+                  <input name="additional[oro-10k]" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">
+                  Plata Ley 950
+                  <input name="additional[plata-ley-950]" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="inputBox">
+                <label class="checkbox-container">
+                  Plata con baño de oro 24k
+                  <input name="additional[plata-baño-oro-24k]" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">
+                  Plata con baño de rodio
+                  <input name="additional[plata-baño-rodio]" type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <h4>Características</h4>
+          <ul>
+            <li>Garantía de por vida&nbsp;</li>
+          </ul>
+
+
+          <div class="row">
+
+            <div class="col-lg-12 col-xs-12">
+              <div class="form-footer">
+                <button class="btn btn-custom" type="submit">
+                  Comprar por Whatsapp
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="product-description">
-          <form action="">
-            <h3>REF: CLE 10X8 AN</h3>
-            <h1>316</h1>
-            <div class="row">
-              <div class="col-sm-12">
-                <h4>Materiales</h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="inputBox">
-                  <label class="checkbox-container">
-                    Oro 18k
-                    <input name="additional[oro-18k]" type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="checkbox-container">
-                    Oro 10k
-                    <input name="additional[oro-10k]" type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="checkbox-container">
-                    Plata Ley 950
-                    <input name="additional[plata-ley-950]" type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="inputBox">
-                  <label class="checkbox-container">
-                    Plata con baño de oro 24k
-                    <input name="additional[plata-baño-oro-24k]" type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="checkbox-container">
-                    Plata con baño de rodio
-                    <input name="additional[plata-baño-rodio]" type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-              </div>
-            </div>
 
-            <h4>Características</h4>
-            <ul>
-              <li>Garantía de por vida&nbsp;</li>
-            </ul>
+      </form>
 
-
-            <div class="row">
-
-              <div class="col-lg-12 col-xs-12">
-                <div class="form-footer">
-                  <button class="btn btn-custom" type="submit">
-                    Comprar por Whatsapp
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </form>
-
-      </div>
     </div>
   </div>
+</div>
 </div>
 
 

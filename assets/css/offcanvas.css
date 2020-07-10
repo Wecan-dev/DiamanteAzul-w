@@ -1,7 +1,7 @@
 @media (max-width: 991px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 100px !important;
+    top: 172px !important;
     /* Height of navbar */
     bottom: 0;
     left: 100%;
@@ -10,11 +10,12 @@
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #fff;
+    background-color: black;
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     transition-property: left, visibility;
     padding-top: 25px;
+    height: 200px;
   }
 
   .offcanvas-collapse.open {
@@ -99,7 +100,7 @@
 .hamburger-inner::after {
   width: 35px;
   height: 3px;
-  background-color: #0B1A1C;
+  background-color:#1e46a1;;
   border-radius: 3px;
   position: absolute;
   transition-property: transform;
@@ -125,16 +126,19 @@
   top: 6px;
   transition-duration: 0.275s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  width: 30px;
 }
 
 .hamburger--elastic .hamburger-inner::before {
   top: 10px;
   transition: opacity 0.125s 0.275s ease;
+  width: 30px;
 }
 
 .hamburger--elastic .hamburger-inner::after {
   top: 20px;
   transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  width: 30px;
 }
 
 .hamburger--elastic.is-active .hamburger-inner {

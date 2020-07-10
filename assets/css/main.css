@@ -47,7 +47,7 @@
   font-weight: 0;
 }
 .Search {
-  width: 400px;
+  width: 363px;
   position: relative;
 }
 
@@ -79,7 +79,7 @@
 
 .Search-box {
   float: left;
-  width: 80%;
+  width: 60%;
   height: 100%;
   border: 0;
   outline: 0;
@@ -120,7 +120,7 @@
   z-index: 2;
   cursor: pointer;
   height: 100%;
-  width: 3rem;
+  width: 7rem;
   transition: opacity ease 250ms 250ms;
 }
 
@@ -537,14 +537,16 @@ p, small, span {
 .btn-custom {
   background-color: #1e46a1;
   border-radius: 10px;
-  color: #fff !important;
+  color: #fff ;
   font-family: "Lato", sans-serif;
   margin-bottom: 10px;
   width: 100%;
 }
 
 .btn-custom:hover {
-  color: #fff;
+  color: #1e46a1;
+  background-color: white;
+  font-weight: 800;
 }
 
 .breadcrumb {
@@ -1055,6 +1057,9 @@ textarea {
   }
   .visible-xs{
     margin: 0 23px;
+    display: block;
+  }
+  .navbar-toggler{
     display: block;
   }
 
