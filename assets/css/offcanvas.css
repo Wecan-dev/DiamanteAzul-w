@@ -1,7 +1,7 @@
 @media (max-width: 991px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 172px !important;
+    top: 155px !important;
     /* Height of navbar */
     bottom: 0;
     left: 100%;
@@ -13,9 +13,11 @@
     background-color: black;
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
-    transition-property: left, visibility;
+    transition-property: bottom , visibility;
+    
     padding-top: 25px;
     height: 200px;
+
   }
 
   .offcanvas-collapse.open {

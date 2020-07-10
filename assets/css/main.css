@@ -233,7 +233,9 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar img {
-    width: 120px;
+    width: 202px;
+    margin:  0;
+    margin-top: 0;
   }
 }
 
@@ -265,7 +267,7 @@
 
 @media (min-width: 0px) and (max-width: 575px) {
   .navbar-top {
-    height: auto;
+    height: 177px;
   }
 }
 
@@ -994,7 +996,7 @@ textarea {
     display: block;
   }
   .navbar img {
-    width: 240px;
+    width: 252px;
     margin: 0px 0;
     margin-top: 0rem;
   }
@@ -1002,6 +1004,9 @@ textarea {
     padding: 15px;
 
 
+  }
+  .navbar{
+    padding: 0;
   }
   .banner-home li img{
     height: 131px;
