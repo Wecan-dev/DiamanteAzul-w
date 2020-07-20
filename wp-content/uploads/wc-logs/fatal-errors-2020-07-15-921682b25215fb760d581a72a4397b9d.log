@@ -1,0 +1,240 @@
+2020-07-15T16:56:56+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_name() on boolean in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/content-single-product.php:284
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-includes/template.php(725): require()
+#1 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(283): load_template('/var/www/html/D...', false)
+#2 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#5 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#6 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/content-single-product.php on line 284
+
+2020-07-15T16:57:49+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_name() on boolean in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/content-single-product.php:283
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-includes/template.php(725): require()
+#1 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(283): load_template('/var/www/html/D...', false)
+#2 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#5 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#6 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/content-single-product.php on line 283
+
+2020-07-15T17:06:23+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 87
+
+2020-07-15T17:06:34+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 87
+
+2020-07-15T17:06:39+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 87
+
+2020-07-15T17:17:48+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 93
+
+2020-07-15T17:23:52+00:00 CRITICAL syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 73
+
+2020-07-15T17:28:56+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:52
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 52
+
+2020-07-15T17:29:14+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:53
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 53
+
+2020-07-15T17:41:23+00:00 CRITICAL Uncaught Error: Call to undefined function wp_term_taxonomy() in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:73
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 73
+
+2020-07-15T17:41:37+00:00 CRITICAL Uncaught Error: Call to undefined function wp_term_taxonomy() in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:73
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 73
+
+2020-07-15T18:00:39+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:77
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 77
+
+2020-07-15T18:00:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:75
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 75
+
+2020-07-15T18:02:21+00:00 CRITICAL Uncaught Error: Call to undefined function gget_term_by() in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:73
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 73
+
+2020-07-15T18:08:33+00:00 CRITICAL Object of class WP_Term could not be converted to string in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 77
+
+2020-07-15T18:08:45+00:00 CRITICAL Object of class WP_Term could not be converted to string in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 77
+
+2020-07-15T18:08:48+00:00 CRITICAL Object of class WP_Term could not be converted to string in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 77
+
+2020-07-15T19:12:06+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:75
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 75
+
+2020-07-15T19:12:37+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:36
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 36
+
+2020-07-15T19:14:02+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:36
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 36
+
+2020-07-15T19:14:19+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:36
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 36
+
+2020-07-15T19:14:22+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:36
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 36
+
+2020-07-15T19:15:07+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:18
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 18
+
+2020-07-15T19:15:24+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:20
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 20
+
+2020-07-15T19:15:36+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:22
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 22
+
+2020-07-15T19:20:31+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:22
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 22
+
+2020-07-15T19:21:18+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:22
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 22
+
+2020-07-15T19:22:48+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:22
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 22
+
+2020-07-15T19:51:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:81
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 81
+
+2020-07-15T20:27:42+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php:21
+Stack trace:
+#0 /var/www/html/Diamante-Azul/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/taxonomy-product_cat.php(24): wc_get_template('archive-product...')
+#2 /var/www/html/Diamante-Azul/wp-includes/template-loader.php(106): include('/var/www/html/D...')
+#3 /var/www/html/Diamante-Azul/wp-blog-header.php(19): require_once('/var/www/html/D...')
+#4 /var/www/html/Diamante-Azul/index.php(17): require('/var/www/html/D...')
+#5 {main}
+  thrown in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 21
+
+2020-07-15T20:49:57+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Diamante-Azul/wp-content/themes/DiamanteAzul-w/woocommerce/archive-product.php on line 126
+
