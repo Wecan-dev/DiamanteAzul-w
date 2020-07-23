@@ -117,11 +117,7 @@ if ( post_password_required() ) {
 					<div class="col-sm-12">
 						<div >Ids seleccionados en matriz <span id="arr"></span></div>
 						<div >Ids seleccionados <span id="str"></span></div>
-<<<<<<< HEAD
-						 
-=======
-						
->>>>>>> a98b34b795e5f0fa0e1d596174ff0b67159beb14
+
 						
 					</div>
 				</div>
@@ -137,20 +133,14 @@ if ( post_password_required() ) {
 
 				<div class="row">
 					<div class="col-lg-12 col-xs-12">
-<<<<<<< HEAD
+
 						<div id="hidden" class="form-footer">
 							<a class="btn btn-custom" href=" <?php echo 'https://web.whatsapp.com/send?phone=5804121271277&text=Hola,%20Estoy%20interesado%20en%20este%20producto%20'.str_replace( ' ', '%20', $var_PHP) . ' ' . urlencode(get_permalink());?>" class="btn btn-custom" type="submit">
 								Comprar por Whatsapp
 							</a>							
 						</div>
 						<div id="resultado" class="form-footer"> </div>
-=======
-						<div class="form-footer">
-							<a  class="btn btn-custom" href=" <?php echo 'https://web.whatsapp.com/send?phone=5804121271277&text=Hola,%20Estoy%20interesado%20en%20este%20producto%20'.str_replace( ' ', '%20', $var_PHP) . ' ' . urlencode(get_permalink());?>" class="btn btn-custom" type="submit">
-								Comprar por Whatsapp
-							</a>
-						</div>
->>>>>>> a98b34b795e5f0fa0e1d596174ff0b67159beb14
+
 					</div>
 				</div>
 				
@@ -248,7 +238,7 @@ $(document).ready(function() {
 		return this.value;
 	}).get();
 	
-<<<<<<< HEAD
+
 	//var str = arr.join(',');
 		var str = arr.join(',');
 	
@@ -262,14 +252,7 @@ $(document).ready(function() {
     var b = str.replace(' ', '%20'); 
     var c = ' <?php echo urlencode(get_permalink());?>" class="btn btn-custom" type="submit"> Comprar por Whatsapp </a>';
     document.getElementById("resultado").innerHTML = a+b+c;		
-=======
-	var str = arr.join(',');
-	
-	$('#arr').text(JSON.stringify(arr));
-	
-	var variableJS = $('#str').text(str);
->>>>>>> a98b34b795e5f0fa0e1d596174ff0b67159beb14
-	
+
 	});
 });
 
