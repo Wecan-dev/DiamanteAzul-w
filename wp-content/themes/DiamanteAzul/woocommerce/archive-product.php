@@ -63,6 +63,7 @@ do_action( 'woocommerce_before_main_content' );
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title();  ?></h1>
 	<?php endif; ?>
 
+  
 	<?php
 	/**
 	 * Hook: woocommerce_archive_description.
@@ -80,11 +81,12 @@ do_action( 'woocommerce_before_main_content' );
   <div class="container category-container">
     <div class="category-header">
       <h1><?php echo single_cat_title(); ?></h1>
-      <form>
+      
+      <form action="<?php bloginfo('url'); ?>">
         <div class="input-group">
-          <input class="form-control" placeholder="Buscar..." type="text">
+          <input class="form-control" name="s" placeholder="Buscar..." type="text">
           <div class="input-group-append">
-            <button class="btn btn-primary" type="button">
+            <button class="btn btn-primary" type="button" >
               <i class="icofont-search"></i>
             </button>
           </div>
@@ -101,51 +103,52 @@ do_action( 'woocommerce_before_main_content' );
         <img class="banner-category" src="<?php echo $image; ?>">
       </div>
     <?php endif; ?>
+
+
   <div class="container ">
     <div class="category-box">
       <div class="category-items">
         <div class="row">
+        <?php
+    $parentid = get_queried_object_id();
+    $args = array(
+        'parent' => $parentid
+    );
+    $categories = get_terms(
+        'product_cat', $args
+    );
   
 
-        
+    if ( $categories ) :
+        foreach ( $categories as $category ) :
+          ?>
 
-       <?php if ( !empty( $categorias_hijas ) ): ?>
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+              <div class="card-catalogue">
+                <div class="card-catalogue-img">
+                  <a href="<?php echo esc_url( get_term_link( $category ) ); ?>"><img src="<?php the_field('imagen_de_la_card', $category);?>">
+                  </a>
+                </div>
+                <div class="card-catalogue-content">
+                  <h2 class="card-catalogue-title"><?php  echo esc_html($category->name); ?></h2>
+                </div>
+              </div>
+            </div>
+            <?php
 
-       <?php $wcatTerms = get_terms('product_cat', array('hide_empty' => 0, 'parent' =>0)); 
-      foreach($wcatTerms as $wcatTerm) : 
-       ?>
-         <?php
-         $wsubargs = array(
-           'hierarchical' => 1,
-           'show_option_none' => '',
-           'hide_empty' => 1,
-           'parent' => $wcatTerm->term_id,
-           'taxonomy' => 'product_cat',
-         );
-         $wsubcats = get_categories($wsubargs);
-         foreach ($wsubcats as $wsc):
-
-           $thumbnail_id = get_woocommerce_term_meta($wsc->term_id, 'thumbnail_id', true);
-
-             $images = wp_get_attachment_image_src($thumbnail_id, 'large');
-           ?>
-
-           <div class="col-lg-4 col-sm-6 col-xs-12">
-             <div class="card-catalogue">
-               <div class="card-catalogue-img">
-                 <a href="<?php echo $url_category = get_term_link($wsc) ?>"><img src="<?php the_field('imagen_de_la_card', $wsc);?>">
-                 </a>
-               </div>
-               <div class="card-catalogue-content">
-                 <h2 class="card-catalogue-title"><?php echo $wsc->name; ?></h2>
-               </div>
-             </div>
-           </div>
-
-                     <?php  endforeach;  ?> 
-         
-                     <?php  endforeach;  ?>  
-         <?php else:?>
+            $products = new WP_Query( array(
+                'post_type' => 'product',
+                'tax_query' => array(
+                    array(
+                        'taxonomy' => 'product_cat',
+                        'field' => 'slug',
+                        'terms' => $category->slug,
+                    ),
+                ) 
+            ) );
+            
+        endforeach;
+         else:?>
 
 
 
@@ -165,9 +168,10 @@ do_action( 'woocommerce_before_main_content' );
               </div>
             </div>
           </div>
-          <?php endwhile; ?>
-         <?php endif; ?>
-                
+          <?php endwhile;
+        
+    endif;
+?>
     
 
         </div>
@@ -178,7 +182,6 @@ do_action( 'woocommerce_before_main_content' );
 
 
 
-<?php get_footer();?>
-
-
-
+<?php
+get_footer();
+?>

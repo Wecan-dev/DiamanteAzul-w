@@ -1,0 +1,12 @@
+2020-07-23T18:12:06+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/DiamanteAzul-w/wp-content/themes/DiamanteAzul/woocommerce/archive-product.php on line 195
+
+2020-07-23T18:19:30+00:00 CRITICAL syntax error, unexpected '$products' (T_VARIABLE) in /var/www/html/DiamanteAzul-w/wp-content/themes/DiamanteAzul/woocommerce/archive-product.php on line 196
+
+2020-07-23T18:33:13+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /var/www/html/DiamanteAzul-w/wp-content/themes/DiamanteAzul/woocommerce/archive-product.php on line 223
+
+2020-07-23T18:33:52+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /var/www/html/DiamanteAzul-w/wp-content/themes/DiamanteAzul/woocommerce/archive-product.php on line 222
+
+2020-07-23T23:02:23+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/DiamanteAzul-w/wp-content/themes/DiamanteAzul/index.php on line 111
+
+2020-07-23T23:02:46+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/DiamanteAzul-w/wp-content/themes/DiamanteAzul/index.php on line 111
+

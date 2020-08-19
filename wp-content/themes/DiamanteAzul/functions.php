@@ -208,3 +208,12 @@ function my_theme_setup() {
 }
 add_action( 'after_setup_theme', 'my_theme_setup' );
 
+add_action( 'after_setup_theme', 'yourtheme_setup' );
+
+function yourtheme_setup() {
+
+
+add_theme_support( 'wc-product-gallery-slider' );
+} 
+
+

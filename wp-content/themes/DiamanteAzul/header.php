@@ -27,7 +27,7 @@
   </a>
   <div class="main-fixed__ws">
     <a href="<?php bloginfo('url'); ?>/contactanos#contactp_form" class="text-fixed__ws">
-      Contactanos
+    Contáctanos
     </a>
   </div>
 
@@ -35,7 +35,7 @@
 
   <div class='fixed-top'>
     <nav class='navbar navbar-top navbar-expand-lg'>
-      <a class='navbar-brand'>
+      <a href="<?php bloginfo('url'); ?>" class='navbar-brand'>
         <img src="<?php echo get_template_directory_uri();?>/assets/img/logo-default.png">
       </a>
 
@@ -49,14 +49,12 @@
 
       <div class='navbar-collapse offcanvas-collapse'>
         <ul class='navbar-nav mx-auto'>
+          
           <li class='nav-item'>
-            <a href="<?php bloginfo('url'); ?>" class='nav-link'>Inicio</a>
+            <a href="<?php bloginfo('url'); ?>" class='nav-link'>Catálogo</a>
           </li>
           <li class='nav-item'>
-            <a href="<?php bloginfo('url'); ?>/catalogo" class='nav-link'>Catálogo</a>
-          </li>
-          <li class='nav-item'>
-            <a href="<?php bloginfo('url'); ?>/nosotros" class='nav-link'>Diseño de Joyas</a>
+            <a href="<?php bloginfo('url'); ?>/quienes-somos" class='nav-link'>Diseño de Joyas</a>
           </li>
           <li class='nav-item'>
             <a href="<?php bloginfo('url'); ?>/contactanos" class='nav-link'>Contacto</a>
@@ -71,9 +69,9 @@
             </div>
           </li>
           <li class="search_mobile">
-            <form>
+            <form  action="<?php bloginfo('url'); ?>" >
               <div class="input-group">
-                <input class="form-control" placeholder="Buscar..." type="text">
+                <input class="form-control" name="s" placeholder="Buscar..." type="text">
                 <div class="input-group-append">
                   <button class="btn btn-primary" type="button">
                     <i class="icofont-search"></i>

@@ -112,15 +112,7 @@ if ( post_password_required() ) {
 
 					</form>
 
-					
-				<div class="row">
-					<div class="col-sm-12">
-						<div >Ids seleccionados en matriz <span id="arr"></span></div>
-						<div >Ids seleccionados <span id="str"></span></div>
-
-						
-					</div>
-				</div>
+				
 
 				<div class="row">
 					<div class="col-sm-12">
@@ -135,7 +127,7 @@ if ( post_password_required() ) {
 					<div class="col-lg-12 col-xs-12">
 
 						<div id="hidden" class="form-footer">
-							<a class="btn btn-custom" href=" <?php echo 'https://web.whatsapp.com/send?phone=5804121271277&text=Hola,%20Estoy%20interesado%20en%20este%20producto%20'.str_replace( ' ', '%20', $var_PHP) . ' ' . urlencode(get_permalink());?>" class="btn btn-custom" type="submit">
+							<a class="btn btn-custom" href=" <?php echo 'https://web.whatsapp.com/send?phone=5804246779776&text=Hola,%20Estoy%20interesado%20en%20este%20producto%20'.str_replace( ' ', '%20', $var_PHP) . ' ' . urlencode(get_permalink());?>" class="btn btn-custom" type="submit">
 								Comprar por Whatsapp
 							</a>							
 						</div>
@@ -248,7 +240,7 @@ $(document).ready(function() {
 	var variableJS = $('#str').text(str);
 		
     $("#hidden").css("display", "none");
-    var a = '<a  class="btn btn-custom" href="https://web.whatsapp.com/send?phone=5804121271277&text=Hola,%20Estoy%20interesado%20en%20este%20producto%20';
+    var a = '<a  class="btn btn-custom" href="https://web.whatsapp.com/send?phone=5804246779776&text=Hola,%20Estoy%20interesado%20en%20este%20producto%20';
     var b = str.replace(' ', '%20'); 
     var c = ' <?php echo urlencode(get_permalink());?>" class="btn btn-custom" type="submit"> Comprar por Whatsapp </a>';
     document.getElementById("resultado").innerHTML = a+b+c;		

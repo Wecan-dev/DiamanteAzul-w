@@ -3,20 +3,6 @@ get_header();
 ?>
 <div class='wrapper'>
   <div class="container catalogue-container">
-    <!-- <form action="<?php bloginfo('url'); ?>" method="get">
-      <div class="input-group">
-        <input class="form-control" name="s" placeholder="Buscar..." type="text">
-        <div class="input-group-append">
-          <button class="btn btn-primary" type="submit">
-            <i class="icofont-search"></i>
-          </button>
-        </div>
-      </div>
-
-      <small>Ejemplo: graduación, boda, dije, etc.</small>
-    </form> -->
-
-
     <div class="catalogue-items">
       <div class='row'>
       <?php $wcatTerms = get_terms('product_cat', array('hide_empty' => 0, 'parent' =>0)); 

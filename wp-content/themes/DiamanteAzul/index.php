@@ -5,43 +5,41 @@ get_header();
 <div class='wrapper'>
 
 
-  <section class="banner-home">
+  <!-- <section class="banner-home">
     <ul class="single-item">
-    <?php $args = array( 'post_type' => 'Banner');?>   
-      <?php $loop = new WP_Query( $args ); ?>
-      <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+    < ?php $args = array( 'post_type' => 'Banner');?>   
+      < ?php $loop = new WP_Query( $args ); ?>
+      < ?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <li>
           <a href="">
 
-            <img src="<?php echo get_the_post_thumbnail_url(); ?>">
+            <img src="< ?php echo get_the_post_thumbnail_url(); ?>">
           </a>
         </li>
-      <?php endwhile; ?>
+      < ?php endwhile; ?> 
     </ul>
-  </section>
+  </section> -->
 
 
 
-  <div class="visible-xs">
-   <form>
-    <div class="input-group">
-      <input class="form-control" placeholder="Buscar..." type="text">
-      <div class="input-group-append">
-        <button class="btn btn-primary" type="button">
-          <i class="icofont-search"></i>
-        </button>
-      </div>
+    <div class="visible-xs">
+      <form>
+        <div class="input-group">
+          <input class="form-control" placeholder="Buscar..." type="text">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button">
+              <i class="icofont-search"></i>
+            </button>
+          </div>
+        </div>
+
+      </form>
     </div>
-
-  </form>
-</div>
-</div>
-<div class="container category-container">
-  <div class="category-box">
-  <h1>Nuestas categorias</h1>
-    <div class="category-items">
-      <div class="row">
-
+  </div>
+  <div class="container catalogue-container">
+  <!-- <h1>Nuestas categorias</h1> -->
+    <div class="catalogue-items">
+      <div class='row'>
       <?php $wcatTerms = get_terms('product_cat', array('hide_empty' => 0, 'parent' =>0)); 
         $count_cat = 1;
       foreach($wcatTerms as $wcatTerm) : 
@@ -51,85 +49,25 @@ get_header();
           $images = wp_get_attachment_image_src($thumbnail_id, 'large');
 
           ?>
-          <?php if ($count_cat <= 6): ?>
-        <div class="col-lg-4 col-sm-6 col-xs-12">
-          <div class="card-catalogue">
-            <div class="card-catalogue-img">
-              <a href="<?php echo $url_category = get_term_link( $wcatTerm ) ?>"><img src="<?php the_field('imagen_de_la_card', $wcatTerm);?>">
-              </a>
+          
+
+        <a href="<?php echo $url_category = get_term_link( $wcatTerm ) ?>" class='col-lg-4'>
+          <div class='card-catalogue'>
+            <div class='card-catalogue-img'>
+              <img src="<?php the_field('imagen_de_la_card', $wcatTerm);?>">
             </div>
-            <div class="card-catalogue-content">
+            <div class='card-catalogue-content'>
               <h2 class="card-catalogue-title"><?php echo $wcatTerm->name; ?></h2>
             </div>
           </div>
-        </div>
-
-        <?php endif; ?>
-<?php $count_cat++; endforeach;  ?>
-
-        <!-- <div class="col-lg-4 col-sm-6 col-xs-12">
-          <div class="card-catalogue">
-            <div class="card-catalogue-img">
-              <a href="productos.html"><img src="<?php echo get_template_directory_uri();?>/assets/img/Products/grado/FONDO-CATEGORIA-GRIEGA.jpg">
-              </a>
-            </div>
-            <div class="card-catalogue-content">
-              <h2 class="card-catalogue-title">griega</h2>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12">
-          <div class="card-catalogue">
-            <div class="card-catalogue-img">
-              <a href="productos.html"><img src="<?php echo get_template_directory_uri();?>/assets/img/Products/grado/FONDO-CATEGORIA-JOYA.jpg">
-              </a>
-            </div>
-            <div class="card-catalogue-content">
-              <h2 class="card-catalogue-title">JOYA</h2>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12">
-          <div class="card-catalogue">
-            <div class="card-catalogue-img">
-              <a href="productos.html"><img src="<?php echo get_template_directory_uri();?>/assets/img/Products/grado/FONDO-CATEGORIA-GRIEGA.jpg">
-              </a>
-            </div>
-            <div class="card-catalogue-content">
-              <h2 class="card-catalogue-title">griega</h2>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12">
-          <div class="card-catalogue">
-            <div class="card-catalogue-img">
-              <a href="productos.html"><img src="<?php echo get_template_directory_uri();?>/assets/img/Products/grado/FONDO-CATEGORIA-JOYA.jpg">
-              </a>
-            </div>
-            <div class="card-catalogue-content">
-              <h2 class="card-catalogue-title">JOYA</h2>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12">
-          <div class="card-catalogue">
-            <div class="card-catalogue-img">
-              <a href="productos.html"><img src="<?php echo get_template_directory_uri();?>/assets/img/Products/grado/FONDO-CATEGORIA-JOYA.jpg">
-              </a>
-            </div>
-            <div class="card-catalogue-content">
-              <h2 class="card-catalogue-title">JOYA</h2>
-            </div>
-          </div>
-        </div> -->
-
+        </a>
+        <?php $count_cat++; endforeach;  ?>
       </div>
     </div>
   </div>
- <!--  <center>
-    <a href="catalogo.html" class='btn btn-custom'>Ir al categorias</a>
-  </center> -->
+
 </div>
+
 
 
 <?php
