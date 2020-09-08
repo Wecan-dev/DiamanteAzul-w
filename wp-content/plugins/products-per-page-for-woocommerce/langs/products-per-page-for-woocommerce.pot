@@ -1,0 +1,150 @@
+#: includes/class-alg-wc-products-per-page-core.php:77
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:116
+msgid ""
+"Products <strong>%from% - %to%</strong> from <strong>%total%</strong>. "
+"Products on page %select_form%"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:37
+msgid "Products per Page Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:42
+#: includes/settings/class-alg-wc-settings-products-per-page.php:24
+msgid "Products per Page"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:43
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:53
+msgid "Select Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:58
+msgid "Select options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:59
+#, php-format
+msgid "Enter one option per line in %s format. Use %s for all products."
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:60
+msgid "Title"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:60
+msgid "Number"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:70
+msgid "Default option"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:81
+msgid "Position Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:86
+msgid "Position"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:92
+msgid "Before shop loop"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:93
+msgid "After shop loop"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:97
+msgid "Position priority"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:98
+msgid "Used to fine-tune the Position."
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:109
+msgid "Template Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:114
+msgid "Template"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:122
+msgid "Select class"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:130
+msgid "Select style"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:138
+msgid "Before HTML"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:146
+msgid "After HTML"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:158
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:163
+msgid "Enable cookie"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:164
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:165
+#, php-format
+msgid "%s cookie is used to save user's products per page selection."
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:172
+msgid "Cookie expiration time"
+msgstr ""
+
+#: includes/settings/class-alg-wc-products-per-page-settings-general.php:173
+msgid "seconds"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-products-per-page.php:53
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-products-per-page.php:58
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-products-per-page.php:59
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-products-per-page.php:60
+msgid "Check the box and save changes to reset."
+msgstr ""
+
+#: includes/settings/class-alg-wc-settings-products-per-page.php:88
+#: includes/settings/class-alg-wc-settings-products-per-page.php:103
+msgid "Your settings have been reset."
+msgstr ""
+
+#: products-per-page-for-woocommerce.php:148
+msgid "Settings"
+msgstr ""
+
+#: products-per-page-for-woocommerce.php:151
+msgid "Go Pro"
+msgstr ""

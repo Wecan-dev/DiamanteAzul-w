@@ -1,6 +1,9 @@
 .product_meta,.woocommerce-breadcrumb, .woocommerce-products-header__title.page-title, .product-description .price, .product-description .product_title.entry-title, .woocommerce-variation-add-to-cart, .variations .label{
   display: none !important; 
 }
+.woocommerce-product-gallery__image.flex-active-slide a{
+	pointer-events: none !important;
+}
 
 .flex-control-nav.flex-control-thumbs{
   display: flex !important;
